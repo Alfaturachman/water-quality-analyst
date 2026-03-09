@@ -4,20 +4,6 @@ Analisis kualitas air dan preprocessing data untuk memprediksi apakah air **laya
 
 ---
 
-## - Daftar Isi
-
-- [Tentang Proyek](#-tentang-proyek)
-- [Dataset](#-dataset)
-- [Tujuan](#-tujuan)
-- [Struktur Proyek](#-struktur-proyek)
-- [Teknologi & Library](#-teknologi--library)
-- [Cara Menjalankan](#-cara-menjalankan)
-- [Struktur Notebook](#-struktur-notebook)
-- [Mata Kuliah](#-mata-kuliah)
-- [Lisensi](#-lisensi)
-
----
-
 ## - Tentang Proyek
 
 Proyek ini merupakan bagian dari tugas mata kuliah **Pembelajaran Mesin** yang berfokus pada tahap **Exploratory Data Analysis (EDA)** dan **Preprocessing** data kualitas air.
@@ -68,9 +54,9 @@ Dataset yang digunakan adalah **Water Potability Dataset** dari Kaggle.
 
 ```
 project/
-├── README.md                    # Dokumentasi proyek (file ini)
-├── code.ipynb                   # Notebook utama: EDA & Preprocessing
-├── water_potability.csv         # Dataset kualitas air
+├── README.md                  # Dokumentasi proyek (file ini)
+├── code.ipynb                 # Notebook utama: EDA & Preprocessing
+├── water_quality_data.csv     # Dataset kualitas air
 ```
 
 ---
@@ -109,14 +95,14 @@ from sklearn.impute import SimpleImputer
 ### Prasyarat
 
 - Python 3.7 atau lebih tinggi
-- Jupyter Notebook / JupyterLab
+- Jupyter Notebook
 
 ### Instalasi
 
 1. **Clone repository ini**
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Alfaturachman/water-quality-analyst/
     cd project
     ```
 
@@ -129,7 +115,7 @@ from sklearn.impute import SimpleImputer
 3. **Jalankan Notebook**
 
     ```bash
-    jupyter notebook code.ipynb
+    water quality code.ipynb
     ```
 
 4. **Jalankan semua cells** untuk melihat hasil analisis lengkap
@@ -147,14 +133,15 @@ from sklearn.impute import SimpleImputer
 
 ---
 
-## - Mata Kuliah
+## - Informasi Tambahan
 
-**Mata Kuliah:** Pembelajaran Mesin
-**Dosen Pengampu:** ABU SALAM M.Kom
-
-**Nama:** Alfaturachman Maulana Pahlevi
-**NIM:** A11.2025.16609
-**Kelas:** A11.4405
+| Informasi          | Keterangan                    |
+| ------------------ | ----------------------------- |
+| **Mata Kuliah**    | Pembelajaran Mesin            |
+| **Dosen Pengampu** | ABU SALAM, M.Kom              |
+| **Nama**           | Alfaturachman Maulana Pahlevi |
+| **NIM**            | A11.2025.16609                |
+| **Kelas**          | A11.4405                      |
 
 ---
 
